@@ -4,9 +4,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/lgsvl/data-marketplace-chaincode-rest/controller"
-	"github.com/lgsvl/data-marketplace-chaincode-rest/rest"
-	"github.com/lgsvl/data-marketplace-chaincode-rest/utils"
+	"github.com/alcarria/data-marketplace-chaincode-rest/controller"
+	"github.com/alcarria/data-marketplace-chaincode-rest/rest"
+	"github.com/alcarria/data-marketplace-chaincode-rest/utils"
 )
 
 func main() {
@@ -31,7 +31,7 @@ func main() {
 		// Chaincode parameters
 		ChainCodeID:     "dmp",
 		ChaincodeGoPath: os.Getenv("GOPATH"),
-		ChaincodePath:   "github.com/lgsvl/data-marketplace-chaincode",
+		ChaincodePath:   "github.com/alcarria/data-marketplace-chaincode",
 		OrgAdmin:        "Admin",
 		OrgName:         "Org1",
 		ConfigFile:      "/shared/artifacts/config.yaml",

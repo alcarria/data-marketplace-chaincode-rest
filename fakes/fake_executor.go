@@ -4,7 +4,7 @@ package fakes
 import (
 	sync "sync"
 
-	utils "github.com/lgsvl/data-marketplace-chaincode-rest/utils"
+	utils "github.com/alcarria/data-marketplace-chaincode-rest/utils"
 )
 
 type FakeExecutor struct {

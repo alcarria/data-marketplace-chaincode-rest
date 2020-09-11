@@ -4,8 +4,8 @@ package fakes
 import (
 	sync "sync"
 
-	controller "github.com/lgsvl/data-marketplace-chaincode-rest/controller"
-	resources "github.com/lgsvl/data-marketplace-chaincode-rest/resources"
+	controller "github.com/alcarria/data-marketplace-chaincode-rest/controller"
+	resources "github.com/alcarria/data-marketplace-chaincode-rest/resources"
 )
 
 type FakeController struct {

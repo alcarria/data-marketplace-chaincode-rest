@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/lgsvl/data-marketplace-chaincode-rest/controller"
-	"github.com/lgsvl/data-marketplace-chaincode-rest/fakes"
-	"github.com/lgsvl/data-marketplace-chaincode-rest/resources"
+	"github.com/alcarria/data-marketplace-chaincode-rest/controller"
+	"github.com/alcarria/data-marketplace-chaincode-rest/fakes"
+	"github.com/alcarria/data-marketplace-chaincode-rest/resources"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

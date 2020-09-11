@@ -11,7 +11,7 @@ go get -v github.com/Masterminds/glide
 echo "preparing environment ..."
 mkdir -p $GOPATH/src/github.com/lgsvl
 cp -rf data-marketplace-chaincode-rest $GOPATH/src/github.com/lgsvl
-cd $GOPATH/src/github.com/lgsvl/data-marketplace-chaincode-rest
+cd $GOPATH/src/github.com/alcarria/data-marketplace-chaincode-rest
 
 echo "Running glide up with strip vendor flag"
 glide up --strip-vendor

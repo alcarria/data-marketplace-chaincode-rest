@@ -4,7 +4,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/lgsvl/data-marketplace-chaincode-rest/resources"
+	"github.com/alcarria/data-marketplace-chaincode-rest/resources"
 )
 
 func LoadConfig() (resources.ServerConfig, error) {

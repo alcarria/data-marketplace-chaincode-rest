@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/gorilla/mux"
-	"github.com/lgsvl/data-marketplace-chaincode-rest/resources"
-	_ "github.com/lgsvl/data-marketplace-chaincode-rest/statik"
+	"github.com/alcarria/data-marketplace-chaincode-rest/resources"
+	_ "github.com/alcarria/data-marketplace-chaincode-rest/statik"
 	"github.com/rakyll/statik/fs"
 )
 

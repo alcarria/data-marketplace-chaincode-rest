@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/lgsvl/data-marketplace-chaincode-rest/controller"
-	rest_resources "github.com/lgsvl/data-marketplace-chaincode-rest/resources"
-	"github.com/lgsvl/data-marketplace-chaincode-rest/utils"
+	"github.com/alcarria/data-marketplace-chaincode-rest/controller"
+	rest_resources "github.com/alcarria/data-marketplace-chaincode-rest/resources"
+	"github.com/alcarria/data-marketplace-chaincode-rest/utils"
 )
 
 //CCHandler is a handler for chaincode

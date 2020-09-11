@@ -3,6 +3,6 @@ set -e
 scripts=$(dirname $0)
 
 echo "building docker image..."
-docker build -t lgsvl/data-marketplace-chaincode-rest .
+docker build -t alcarria/data-marketplace-chaincode-rest .
 echo "pushing docker image..."
-docker push lgsvl/data-marketplace-chaincode-rest:latest
+docker push alcarria/data-marketplace-chaincode-rest:latest

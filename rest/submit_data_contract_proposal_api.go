@@ -3,8 +3,8 @@ package rest
 import (
 	"net/http"
 
-	rest_resources "github.com/lgsvl/data-marketplace-chaincode-rest/resources"
-	"github.com/lgsvl/data-marketplace-chaincode/resources"
+	rest_resources "github.com/alcarria/data-marketplace-chaincode-rest/resources"
+	"github.com/alcarria/data-marketplace-chaincode/resources"
 )
 
 func (c *CCHandler) SubmitDataContractProposalCreate(w http.ResponseWriter, r *http.Request) {

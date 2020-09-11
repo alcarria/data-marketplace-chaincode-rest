@@ -7,8 +7,8 @@ import (
 	"log"
 	"strings"
 
-	rest_resources "github.com/lgsvl/data-marketplace-chaincode-rest/resources"
-	"github.com/lgsvl/data-marketplace-chaincode-rest/utils"
+	rest_resources "github.com/alcarria/data-marketplace-chaincode-rest/resources"
+	"github.com/alcarria/data-marketplace-chaincode-rest/utils"
 )
 
 type PeerController struct {

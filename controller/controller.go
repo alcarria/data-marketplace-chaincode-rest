@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/lgsvl/data-marketplace-chaincode-rest/resources"
+	"github.com/alcarria/data-marketplace-chaincode-rest/resources"
 )
 
 //Controller to run invoke and queries on chaincode
