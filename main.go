@@ -21,15 +21,27 @@ func main() {
 
 	fabricSetup := controller.FabricSetup{
 		// Network parameters
+		//OrdererID:  "orderer.example.com",
+		//OrdererURL: "blockchain-orderer:31010",
 		OrdererID:  "orderer.example.com",
-		OrdererURL: "blockchain-orderer:31010",
+		OrdererURL: "orderer.example.com:7050",
 
 		// Channel parameters
-		ChannelID:     "dmp",
-		ChannelConfig: "/shared/dmp.tx",
+		//ChannelID:     "dmp",
+		//ChannelConfig: "/shared/dmp.tx",
+		ChannelID:     "mychannel",
+		ChannelConfig: "/channel-artifacts/channel.tx",
+		
 
 		// Chaincode parameters
-		ChainCodeID:     "dmp",
+		//ChainCodeID:     "dmp",
+		//ChaincodeGoPath: os.Getenv("GOPATH"),
+		//ChaincodePath:   "github.com/alcarria/data-marketplace-chaincode",
+		//OrgAdmin:        "Admin",
+		//OrgName:         "Org1",
+		//ConfigFile:      "/shared/artifacts/config.yaml",
+		//UserName:        "Admin",
+		ChainCodeID:     "data-marketplace-chaincode",
 		ChaincodeGoPath: os.Getenv("GOPATH"),
 		ChaincodePath:   "github.com/alcarria/data-marketplace-chaincode",
 		OrgAdmin:        "Admin",
